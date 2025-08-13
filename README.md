@@ -31,6 +31,15 @@ You provide the core elements, and the Alchemist studies them. Every suggestion 
 
 ---
 
+## Tech Stack
+
+* **Frontend**: Streamlit
+* **LLM & Embeddings**: Google Gemini API (`gemini-pro`, `embedding-001`)
+* **Backend Framework**: LangChain
+* **Vector Store**: FAISS (for in-memory similarity search)
+
+---
+
 ## Your Journey Begins 🧭
 
 Ready to start creating? Here’s how to set up your laboratory.
@@ -70,7 +79,7 @@ The Alchemist is powered by Google's Gemini API. This is the catalyst for all tr
 * Create a new file in the project folder named `.env`.
 * Inside this file, add your key like so: `GOOGLE_API_KEY="YOUR_API_KEY_HERE"`
 
-(Don't worry, the `.gitignore` file will ensure your secret formula never accidentally gets shared.)
+(Don't worry, the `.gitignore` file will ensure your secret formula never accidentally gets shared.) 
 
 ### 3. Create Some Gold 🚀
 
