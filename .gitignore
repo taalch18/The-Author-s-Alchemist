@@ -1,0 +1,59 @@
+# --- Environments ---
+# Ignore environment variables files and virtual environment folders.
+# Never commit secrets!
+.env
+.venv
+venv/
+env/
+ENV/
+
+# --- Python ---
+# Ignore Python caches, compiled files, and distribution folders.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+wheels/
+pip-wheel-metadata/
+parts/
+var/
+*.manifest
+*.spec
+
+# --- IDEs and Editors ---
+# Ignore configuration files from popular editors.
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+nbproject/
+
+# --- Streamlit ---
+# Ignore Streamlit's configuration and secrets folder.
+.streamlit/
+
+# --- Testing & Coverage ---
+# Ignore caches and reports from testing frameworks.
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# --- Operating System Files ---
+# Ignore system-specific metadata files.
+.DS_Store
+Thumbs.db
+
+# --- Logs and Databases ---
+# Ignore log files and local databases.
+*.log
+*.db
+*.sqlite3
